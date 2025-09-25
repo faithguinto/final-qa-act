@@ -36,9 +36,11 @@ x_customer_firstname = '//input[@id=":r4s:"]'
 
 
 TABLE = "(//table/tbody)"
-x_rows = "/tr"
+x_rows = "//tr"
 x_table_name = "/td[2]"
 x_table_last_seen = "/td[3]"
 x_table_orders = "/td[4]"
 x_table_total_spent = "/td[5]"
 x_table_latest_purchase = "/td[6]"
+x_table_news = '(//span[@class="MuiTypography-root MuiTypography-body2 css-17ot3m1"]/*)'
+x_table_segments = '/td[8]'
